@@ -21,10 +21,7 @@ COPY . /madi
 
 #RUN a2ensite 0api.conf
 #RUN a2ensite 0api_ssl.conf
-#RUN a2ensite wcloudfuzewebapp2.conf
 
-#RUN echo "127.0.0.1  demoscli.cloudfuze.com  demoscli.cloudfuze.com" >> /etc/hosts
-#RUN echo "127.0.0.1  demoscliapis.cloudfuze.com  demoscliapis.cloudfuze.com" >> /etc/hosts
 
 #Expose Apache
 Expose 80
