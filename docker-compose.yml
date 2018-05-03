@@ -7,4 +7,7 @@ services :
     volumes : 
       - ./testing/code:/var/www/html
   backend :
-    
+    build : ./backend
+    ports : 
+      - "8080:8080"
+    entrypoint : tail -f /dev/null
